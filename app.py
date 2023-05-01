@@ -36,3 +36,12 @@ st.dataframe(df.style.hightlight_max(axis=0))
 
 st.subheader('Method 3: static table')
 st.table(df)
+
+st.header('display json')
+st.jason({'data': 'name'})
+
+st.header('display code')
+st.code('''
+def sayHello():
+    print('Hello Streamlit')
+''', language='python')
