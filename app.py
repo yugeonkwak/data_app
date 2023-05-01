@@ -39,7 +39,7 @@ st.table(df)
 
 st.header('display json')
 st.json(
-    {"data": "name"}
+    {'data': 'name'}
 )
 
 st.header('display code')
