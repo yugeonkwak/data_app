@@ -14,7 +14,7 @@ st.success('성공적으로 저장하였습니다.')
 st.warning('업로드할 수 없는 파일 형식입니다.')
 st.info('알려드립니다.')
 st.error('This is an error')
-st.exception('This is an exception')
+st.exception('This is an exception  ')
 
 st.write('Normal Text')
 st.write('## This is a markdown text')
