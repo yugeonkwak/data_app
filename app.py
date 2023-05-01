@@ -57,3 +57,5 @@ col3.metric('Humidity','86%','4%')
 name='Yugeon Kwak'
 if st.button('Submit',key=1):
     st.write('Name: %s'%name)
+if st.button('Submit',key=2):
+    st.write('Full Name: %s'%name)
