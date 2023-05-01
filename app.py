@@ -24,7 +24,7 @@ st.write(dir(st))
 
 st.help(range)
 
-'''st.title(' Data Display Elements')
+st.title(' Data Display Elements')
 st.header('Iris data display')
 
 df=pd.read_csv('iris.csv')
@@ -32,21 +32,27 @@ st.subheader('Method 1')
 st.dataframe(df)
 
 st.subheader('Method 2')
-st.dataframe(df.style.hightlight_max(axis=0))
+st.dataframe(df.style.highlight_max(axis=0))
 
 st.subheader('Method 3: static table')
-st.table(df)'''
+st.table(df)
 
-'''st.header('display json')
-st.json({'data': 'name'})
+st.header('display json')
+st.json(
+    {"data": "name"}
+)
 
 st.header('display code')
 st.code('''
 def sayHello():
     print('Hello Streamlit')
-''', language='python')'''
+''', language='python')
 
 col1, col2, col3=st.columns(3)
 col1.metric('Temperature','70 F','1.2 F')
 col2.metric('Wind','9 mph','-8%')
 col3.metric('Humidity','86%','4%')
+
+name='Yugeon Kwak'
+if st.button('Submit',key=1):
+    st.write('Name: %s'%name)
