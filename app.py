@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 
 st.title('This is a title')
 st.header('This is a header')
@@ -26,6 +25,8 @@ st.help(range)
 
 st.title(' Data Display Elements')
 st.header('Iris data display')
+
+import pandas as pd
 
 df=pd.read_csv('iris.csv')
 st.subheader('Method 1')
