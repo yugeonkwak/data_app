@@ -59,3 +59,10 @@ if st.button('Submit',key=1):
     st.write('Name: %s'%name)
 if st.button('Submit',key=2):
     st.write('Full Name: %s'%name)
+
+st.header('Radio Button')
+status=st.radio('What is your status',('Active','Inactive'))
+if status=='Active':
+    st.success('You are active')
+elif status=='Inactive':
+    st.warning('You are inactive')
