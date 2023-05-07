@@ -74,4 +74,4 @@ if agree:
 
 my_lang=['Python','C','C++','C#','Go','Java']
 choice=st.selectbox('Language',my_lang)
-st.wrtie('You selected %s'%choice)
+st.write('You selected %s'%choice)
