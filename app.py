@@ -66,3 +66,8 @@ if status=='Active':
     st.success('You are active')
 elif status=='Inactive':
     st.warning('You are inactive')
+
+st.header('Checkbox')
+agree=st.checkbox('I agree')
+if agree:
+    st.wrtie('You agreed')
