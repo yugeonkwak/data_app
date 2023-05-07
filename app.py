@@ -70,4 +70,4 @@ elif status=='Inactive':
 st.header('Checkbox')
 agree=st.checkbox('I agree')
 if agree:
-    st.wrtie('You agreed')
+    st.write('You agreed')
