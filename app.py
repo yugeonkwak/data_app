@@ -71,3 +71,7 @@ st.header('Checkbox')
 agree=st.checkbox('I agree')
 if agree:
     st.write('You agreed')
+
+my_lang=['Python','C','C++','C#','Go','Java']
+choice=st.selectbox('Language',my_lang)
+st.wrtie('You selected %s'%choice)
