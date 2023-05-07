@@ -75,3 +75,5 @@ if agree:
 my_lang=['Python','C','C++','C#','Go','Java']
 choice=st.selectbox('Language',my_lang)
 st.write('You selected %s'%choice)
+
+multi_choices=st.multiselect('Multi Select',my_lang)
